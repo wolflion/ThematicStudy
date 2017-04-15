@@ -11,8 +11,12 @@ namespace BasciNetPro
         {
             IPEndPointUse iepu = new IPEndPointUse();
             PingUse pu = new PingUse();
+            EncoderUse eu = new EncoderUse();
+            ThreadingUse tu = new ThreadingUse();
             iepu.IPEndPointExample();
             pu.PingUseExample();
+            eu.EncoderUseExample();
+            tu.ThreadingUseExample();
         }
     }
 }
